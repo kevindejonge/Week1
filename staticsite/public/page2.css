@@ -1,0 +1,538 @@
+html {
+	
+/*background-image:  url(images/wood-textures-vol-1.jpg);*/
+background-image: linear-gradient(-90deg, #2A2E85 0%, #045A63 54%, #132B40 97%);
+/*rgb(28,107,160);*/
+padding: 0;
+margin: 0;
+}
+
+
+body {
+padding: 0;
+margin: 0;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+
+
+#unterbar {
+
+opacity: 0.83;
+background-image: url(images/wood-textures-vol-1.jpg);
+/*linear-gradient(-90deg, #B5EB45 0%, #3D4630 55%, #7ED321 97%);*/
+width: 100%;
+height:120px;
+/*margin-top: 10px;*/
+position: fixed;
+z-index: 1;
+border-bottom: 1px solid black;
+border-top:1px solid black;
+}
+
+#fillup {
+	margin: 0 auto;
+	width: 800px;
+	height: 260px;
+}
+
+#Placeholdah {
+	margin: 0 auto;
+	height: auto;
+	width: 1094px;
+	position: relative;	
+}	
+
+#wrapper {
+	
+	position: relative;
+	margin: 0 auto;
+	width: 958px;
+	height: auto;
+	padding: 0px;
+	background-image: linear-gradient(-90deg, #898867 2%, #9A9C5C 51%, #828221 97%);
+	z-index: 0;
+	box-shadow: 10px 20px 40px 10px rgba(0,0,0,0.20);
+	/*rgba(0,0,0,0.20)*/
+	/*border: 1px solid black;*/
+	border-radius: 12px;
+}
+
+#advertisement-column {
+	padding: 13px;
+	width: 220px;
+	height: 1549px;
+
+	margin: 0;
+	float: right;
+	background-image: linear-gradient(-90deg, #9E9EAA 0%, #FFFFFF 51%, #B8B8B8 97%);
+	border-top-right-radius: 12px;
+	font-size: 12px;
+}
+
+
+
+#clientreview {
+	background-image: linear-gradient(-90deg, #2B5168 2%, #121819 51%, #06204A 97%);
+/* Sketch doesnt export gradient borders at this point */
+	width: 711.1111px;
+	float:left;
+	margin: 0 auto;
+}
+
+
+#qoute {
+	
+	float: left;
+	padding-top: 50px;
+	width: 390px ;
+	height: 300px;
+	
+}
+.head { 
+	font-size: 34px;
+	text-indent: 30px;
+	text-decoration-color: white;
+	font-style: italic;
+}
+.head2 {
+	font-size: 34px;
+	text-indent: 150px;
+	font-style: italic;
+}
+
+.sub {
+	font-size: 14px;
+	text-indent: 15px
+}
+
+#qoute p {
+	
+	color: white;
+	z-index: 20;
+}
+
+#fotocutter {
+	width: 130px;
+	height: auto;
+	float:right;
+	
+	overflow: hidden;
+	padding:40px;
+	margin-right: 40px;
+}
+
+
+#clientreview img {
+	width: 255px;
+	height: 255px;
+
+	float: right;
+	
+	margin: 0;
+    padding-right:20px;
+}
+#about {
+	width: 711.1111px;
+	padding: 20px 20px 0px 20px;
+}
+
+.maps{
+	margin:20px;
+	z-index: 100px;
+}
+
+#aboutText {
+	float: right;
+	width: 320.1111px;
+	padding-right: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+#aboutText h3, #aboutText p{
+	color: white;
+}
+
+#side-bar {
+	width: 68px;
+	margin-top: 10px;
+	float:left;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	background-image: linear-gradient(-90deg, #9E9EAA 0%, #FFFFFF 51%, #B8B8B8 97%);
+	position: fixed;
+	opacity:0.63;
+	z-index: 1;
+}
+
+
+#navigationBar {
+
+	background: #D8D8D8;
+	box-shadow: 5px 10px 20px 5px rgba(0,0,0,0.20);
+	border-radius: 8px;
+	width: 780px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+
+}
+#cycler{
+
+	
+    height: 400px;
+    width: 711.1111px;
+    overflow: hidden;
+    border-top-left-radius: 12px;
+	position:relative;
+	float:left;
+	margin: 0;
+    padding:0;
+  
+}
+#cycler img{
+	
+	width:100%;
+	margin: 0;
+    padding:0;
+
+	position:absolute;
+	z-index:-2;
+}
+#cycler img.active{
+	width:100%;
+	margin: 0;
+    padding:0;
+   
+	z-index:-1
+}
+
+#FotoShow{
+
+	
+    height: 430px;
+    width: 711.1111px;
+    overflow: hidden;
+	position:relative;
+	float:right;
+	margin: 0;
+    padding:0;
+  
+}
+
+#FotoShow img{
+	
+	width:100%;
+	margin: 0;
+    padding:0;
+
+	position:absolute;
+	z-index:-2;
+}
+
+}
+#FotoShow img.active{
+	width:100%;
+	margin: 0;
+    padding:0;
+   
+	z-index:-1
+}
+
+/*.achtergrondfoto1 {
+	position: absolute;
+ 
+    z-index: 0;
+    width:100%;
+    
+    margin: 0;
+    padding:0;
+    border: 2px solid brown;
+
+}
+*/
+
+/*//.achtergrondfoto2 {
+
+    position: absolute;
+ 
+    z-index: -1;
+    width:100%;
+   
+    margin: 0;
+    padding:0;
+    border: 2px solid brown;
+}*/
+
+
+
+.divider {
+	
+	width:100%;
+	height:100px;
+	margin: 0;
+	
+}
+/*#helgoland, #australia, #madagascar{
+	width: 300px;
+	height: auto;
+}*/
+
+
+
+#center {
+
+	clear: both;
+	width: 780px;
+	height:800px;
+	padding: 5px;
+	margin: 5px;
+
+}
+
+
+.bar-title {
+	text-align: center;
+	font-family: Fantasy, Old-english;
+	color: white;
+	position: fixed; 
+	/*color: rgb(28,107,160);*/
+	z-index: 2;
+}
+
+#bar-title1 {
+	top: 0.2em;
+	left:40%;
+}
+
+#bar-title2 {
+	top: 3.7em;
+	left:28%;
+}
+
+
+#bar-title3 {
+	top: 3.7em;
+	left:48%;
+}
+
+#bar-title4 {
+	top: 3.7em;
+	left:68%;
+}
+
+#footer {
+text-align: center;
+color: white;
+clear: both;
+padding: 20px;
+bottom: 0em;
+background-image:  url(images/wood-textures-vol-1.jpg);
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+}
+
+#footer p {
+color: white;
+}
+
+#sub-bar-title2_1 {
+	top: 6.1em;
+	left:28%;
+	z-index: 6;
+
+}
+
+
+#sub-bar-title2_2 {
+	top: 8.7em;
+	left:28%;
+z-index: 6;
+}
+
+
+#sub-bar-title2_3 {
+	top: 11.3em;
+	left:28%;
+	z-index: 6;
+}
+
+#sub-bar-title3_1 {
+	top: 6.1em;
+	left:48%;
+	z-index: 6;
+
+}
+
+
+#sub-bar-title3_2 {
+	top: 8.7em;
+	left:48%;
+	z-index: 6;
+
+}
+
+
+#sub-bar-title3_3 {
+	top: 11.3em;
+	left:48%;
+	z-index: 6;
+}
+
+
+
+#sub-bar-title4_1 {
+	top: 6.1em;
+	left:68%;
+	z-index: 6;
+
+}
+
+
+#sub-bar-title4_2 {
+	top: 8.7em;
+	left:68%;
+	z-index: 6;
+
+}
+
+
+#sub-bar-title4_3 {
+	top: 11.3em;
+	left:68%;
+	z-index: 6;
+}	
+/*nav {
+	background:#FFF;
+	top: 3.7em;
+	left:28%;
+	position: fixed;
+	z-index: -3;
+}
+*/
+/*.container {
+top:3.7em;
+left:28%;
+right:24%;
+height:40px;
+border:1px solid black;
+position: fixed;
+z-in*//*dex: 3;
+}*/
+
+.links{
+	top: 5.6em;
+	left:28%;
+	width: 40px;
+	height: 20px;
+	position: fixed;
+	z-index: 7;
+	background-image: 
+}
+
+.midden{
+	top: 5.6em;
+	left:48%;
+	width: 40px;
+	height: 20px;
+	position: fixed;
+	z-index: 7;
+}
+
+.rechts{
+	top: 5.6em;
+	left:68%;
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	z-index: 7;	
+}
+
+nav {
+	background:#FFF;
+	float:left;
+}
+
+li {
+	padding-bottom: 12px;
+}
+
+
+.bar-title:hover{
+	color: black;
+	/*z-index: 100;*/
+}
+
+ul{ 
+
+   list-style-type: none;
+   list-style: none; 
+  /*  padding-left: 0;*/
+    z-index: 7;
+    
+  /*  text-align: left;*/
+ /*   border: 1px solid white;*/
+    -webkit-padding-start: 0;
+    
+}
+
+
+
+nav ul {
+	text-align:center;
+	/*list-style: none;*/
+}
+/*nav ul li {
+	padding-right: 30px;
+	float:left;
+	display:inline;
+}*/
+
+/*.links:hover {
+	background:#E6E6E6;
+opacity: 0.5;
+z-index: -1;
+}*/
+
+nav ul li a {
+	display:block;padding:15px 25px;color:#444;
+}
+nav ul li ul {
+	position:relative;
+
+	width:110px;
+	/*background:#FFF;*/
+}
+nav ul li ul li {
+	width:110px;
+	position: relative;
+}
+nav ul li ul li a {
+	display:block;padding:15px 10px;color:#444;
+}
+/*nav ul li ul li:hover a {
+	background:#F7F7F7;
+}*/
+nav ul li ul.fallback {
+	display:none;}
+nav ul li:hover ul.fallback {display:block;}
+
+/*nav {background:#FFF;float:left;}
+nav ul {text-align:center;}
+nav ul li {float:left;display:inline;}
+nav ul li:hover {background:#E6E6E6;}
+nav ul li a {display:block;padding:15px 25px;color:#444;}
+nav ul li ul {position:absolute;width:110px;background:#FFF;}
+nav ul li ul li {width:110px;}
+nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
+nav ul li ul li:hover a {background:#F7F7F7;}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block;}
+*/
+
+
